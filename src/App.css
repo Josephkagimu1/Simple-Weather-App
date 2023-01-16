@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+button[type="submit"] {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: darkblue;
+}
+
+.weather-data {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-data > * {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+
+h1 {
+  justify-content: center;
+  display: flex;
+  color: green;
+  font-size: 20px;
+}
